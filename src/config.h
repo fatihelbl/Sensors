@@ -1,0 +1,17 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+//thermistor
+#define THERMISTORPIN A2
+#define THERMISTOR_READ_SAMPLE 5
+#define THERMISTOR_RESISTOR 10000
+#define THERMISTOR_NOMINAL 10000
+#define BCO_EFFICIENT 3950
+#define TEMPERATURE_NOMINAL 25
+
+//Serial
+#define MAX_CMD_SIZE 96
+#define SERIAL_BAUDRATE 9600
+#define SERIAL_COMMUNATION_ERROR "Serial Communation Error"
+ 
+
+#endif
