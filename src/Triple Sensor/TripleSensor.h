@@ -2,7 +2,7 @@
 #define TRIPLESENSOR_H
 #include <Arduino.h>
 #define SIZE 16
-
+bool waitTime;
 class TripleSensor
 {
 private:
@@ -11,13 +11,18 @@ private:
     //byte serial_count = 0;
     byte array[SIZE] = {};
     int firstData;
+    unsigned long startMillis,standByTime;
+    
     // tx:18, rx:19;
 
 public:
     void sensorRead();
     void temperatureRead();
-    void c02Read();
+    void co2Read();
     void humidityRead();
+    void updateCo2();
+    void resetTimer();
+    void checkTimer();
 };
 
 #endif

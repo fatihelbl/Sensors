@@ -15,9 +15,11 @@ void setup() {
  {
    Serial.println(SERIAL_COMMUNATION_ERROR);
  }
+ iTripleSensor.resetTimer();
  
 }
 
 void loop() {
   iController.serialRead();
+  iTripleSensor.updateCo2();
 }
