@@ -1,5 +1,5 @@
-#ifndef SERIALCOMMUNATION_H
-#define SERIALCOMMUNATION_H
+#ifndef SERIALCONTROL_H
+#define SERIALCONTROL_H
 #include "Arduino.h"
 #include "Triple Sensor/TripleSensor.h"
 #include "NTC Sensor/NtcSensor.h"

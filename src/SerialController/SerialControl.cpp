@@ -1,4 +1,4 @@
-#include "SerialController.h"
+#include "SerialControl.h"
 
 SerialController ::SerialController(NtcSensor &iNtc, TripleSensor &iSensor)
 {

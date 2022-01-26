@@ -1,5 +1,5 @@
-#ifndef NTC_H
-#define NTC_H
+#ifndef NTCSENSOR_H
+#define NTCSENSOR_H
 
 #include "Arduino.h"
 //config
